@@ -19,7 +19,7 @@ def take_a_number(array, name)
 
 
 def now_serving(array)
-  queue = array
+  if array.empty = array
   binding.pry
   while name = queue.shift
     puts "Currently serving #{name}."
